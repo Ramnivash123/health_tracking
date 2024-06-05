@@ -1,0 +1,61 @@
+<html>
+<head>
+	<title>health monitor</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+		.logo {
+			width: 100px; /* Adjust the width as needed */
+			height: auto; /* Maintain the aspect ratio */
+		}
+		.button {
+			display: inline-block;
+			padding: 10px 20px;
+			background-color: #0074cc; /* Change the background color as needed */
+			color: #fff; /* Change the text color as needed */
+			text-decoration: none;
+			border-radius: 5px;
+		}
+
+		.button:hover {
+			background-color:#0074cc; /* Change the hover background color as needed */
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="banner">
+		<div class="navbar">
+			<img src="https://assets.materialup.com/uploads/c23d0f70-c0db-4ab0-9a6a-ece0f8ce568b/preview.jpg" class="logo">
+		</div>
+		
+		<div class="content">
+			<form class="text-left" action="Add.php" method="post" enctype="multipart/form-data">
+				<label for="name">Name:</label><br>
+				<input type="text" name="name" value="name"><br>
+			
+				<label for="age">Age:</label><br>
+				<input type="number" name="age" value="age"><br>
+			
+				<label for="weight">Weight:</label><br>
+				<input type="number" name="weight" value="weight"><br>
+
+				<label for="height">Height:</label><br>
+				<input type="number" name="height" value="height"><br>
+
+				<label for="o2">O2 level:</label><br>
+				<input type="number" name="o2" value="o2"><br>
+			
+				<label for="systolic">Systolic level:</label><br>
+				<input type="number" name="systolic" value="systolic"><br>
+
+				<label for="diastolic">Diastolic level:</label><br>
+				<input type="number" name="diastolic" value="diastolic"><br>
+				<input type="submit"  value="Submit">
+			
+				
+			</form>
+		</div>
+
+	</div>
+</body>
+</html>
